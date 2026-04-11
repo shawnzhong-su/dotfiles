@@ -1,0 +1,25 @@
+neovim: 主编辑器
+libpq: vim-dadbod 连接 PostgreSQL 用
+fzf: 模糊搜索，配合 telescope 使用
+ripgrep: 高速搜索，neovim grep 依赖
+romkatv/powerlevel10k: Zsh 主题仓库
+bat: 带语法高亮的 cat 替代品
+eza: 带图标的 ls 现代化替代品
+gemini-cli: Google Gemini 终端助手
+lazydocker: Docker 交互式终端界面
+lazygit: Git 交互式终端界面
+powerlevel10k: 极速 Zsh 主题
+uv: Python 包与项目管理器
+yazi: 基于 Rust 的终端文件管理器
+zoxide: 智能 cd 跳转工具
+zsh: 现代化 Shell 解释器
+zsh-autosuggestions: 自动补全建议插件
+zsh-syntax-highlighting: 语法高亮插件
+claude-code: Anthropic 命令行 AI 助手
+dingtalk: 钉钉办公客户端
+font-jetbrains-mono-nerd-font: 编程图标补丁字体
+keka: 压缩与解压缩工具
+kitty: GPU 加速终端模拟器
+obsidian: 知识管理与 Markdown 笔记
+orbstack: 轻量级容器与虚拟机管理
+pixpin: 截图/贴图/OCR 效率工具
