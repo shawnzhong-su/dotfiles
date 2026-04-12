@@ -33,6 +33,7 @@ cask "apifox"
 cask "cherry-studio"
 # Anthropic 命令行 AI 助手
 cask "claude-code"
+cask "datagrip"
 # 钉钉办公客户端
 cask "dingtalk"
 # 编程图标补丁字体

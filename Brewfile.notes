@@ -138,3 +138,8 @@ desc:      (no description found)
 installed: unknown
 comment:   服务于 nvim dadbod 的数据库连接CLI
 desc:      Open source relational database management system
+
+# ── datagrip ──────────────────────────────────
+installed: 2026-04-12
+comment:   临时使用数据库
+desc:      (cask - no brew desc available)
