@@ -10,7 +10,6 @@ brew "gemini-cli"
 brew "lazydocker"
 # Git 交互式终端界面
 brew "lazygit"
-brew "mysql-client"
 # 主编辑器
 brew "neovim"
 # 极速 Zsh 主题
