@@ -23,3 +23,8 @@ kitty: GPU 加速终端模拟器
 obsidian: 知识管理与 Markdown 笔记
 orbstack: 轻量级容器与虚拟机管理
 pixpin: 截图/贴图/OCR 效率工具
+
+# ── cherry-studio ──────────────────────────────────
+installed: 2026-04-12
+comment:   用来测试 foxcode 中特价套餐
+desc:      (cask - no brew desc available)
