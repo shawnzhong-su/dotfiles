@@ -133,3 +133,8 @@ desc:      (cask - no brew desc available)
 installed: unknown
 comment:   团队级别API接口调度工具
 desc:      (no description found)
+
+# ── mysql-client ──────────────────────────────────
+installed: unknown
+comment:   服务于 nvim dadbod 的数据库连接CLI
+desc:      Open source relational database management system
