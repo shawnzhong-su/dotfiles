@@ -124,11 +124,6 @@ installed: unknown
 comment:   截图/贴图/OCR 效率工具
 desc:      (PixPin) Screenshot tool
 
-# ── cherry-studio ──────────────────────────────────
-installed: 2026-04-12
-comment:   用来测试 foxcode 中特价套餐
-desc:      (cask - no brew desc available)
-
 # ── --cask ──────────────────────────────────
 installed: unknown
 comment:   团队级别API接口调度工具
@@ -142,4 +137,9 @@ desc:      Open source relational database management system
 # ── datagrip ──────────────────────────────────
 installed: 2026-04-12
 comment:   临时使用数据库
+desc:      (cask - no brew desc available)
+
+# ── cherry-studio ──────────────────────────────────
+installed: 2026-04-13
+comment:   大模型聊天工具
 desc:      (cask - no brew desc available)

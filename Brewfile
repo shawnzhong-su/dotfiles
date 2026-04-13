@@ -29,10 +29,10 @@ brew "zsh-autosuggestions"
 # 语法高亮插件
 brew "zsh-syntax-highlighting"
 cask "apifox"
-# 用来测试 foxcode 中特价套餐
 cask "cherry-studio"
 # Anthropic 命令行 AI 助手
 cask "claude-code"
+# 临时使用数据库
 cask "datagrip"
 # 钉钉办公客户端
 cask "dingtalk"
