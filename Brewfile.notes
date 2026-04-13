@@ -143,3 +143,8 @@ desc:      (cask - no brew desc available)
 installed: 2026-04-13
 comment:   大模型聊天工具
 desc:      (cask - no brew desc available)
+
+# ── cc-switch ──────────────────────────────────
+installed: 2026-04-13
+comment:   用于在cli中大模型切换使用
+desc:      (cask - no brew desc available)

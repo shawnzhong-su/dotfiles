@@ -29,6 +29,8 @@ brew "zsh-autosuggestions"
 # 语法高亮插件
 brew "zsh-syntax-highlighting"
 cask "apifox"
+cask "cc-switch"
+# 大模型聊天工具
 cask "cherry-studio"
 # Anthropic 命令行 AI 助手
 cask "claude-code"
