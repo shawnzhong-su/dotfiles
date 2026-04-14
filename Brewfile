@@ -4,6 +4,7 @@ tap "romkatv/powerlevel10k"
 brew "bat"
 # 带图标的 ls 现代化替代品
 brew "eza"
+brew "fastfetch"
 # Google Gemini 终端助手
 brew "gemini-cli"
 # Docker 交互式终端界面
@@ -29,6 +30,7 @@ brew "zsh-autosuggestions"
 # 语法高亮插件
 brew "zsh-syntax-highlighting"
 cask "apifox"
+# 用于在cli中大模型切换使用
 cask "cc-switch"
 # 大模型聊天工具
 cask "cherry-studio"
