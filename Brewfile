@@ -4,6 +4,7 @@ tap "romkatv/powerlevel10k"
 brew "bat"
 # 带图标的 ls 现代化替代品
 brew "eza"
+# 实现terminal启动的欢迎展示
 brew "fastfetch"
 # Google Gemini 终端助手
 brew "gemini-cli"
@@ -42,6 +43,7 @@ cask "datagrip"
 cask "dingtalk"
 # 编程图标补丁字体
 cask "font-jetbrains-mono-nerd-font"
+cask "hammerspoon"
 # 压缩与解压缩工具
 cask "keka"
 # GPU 加速终端模拟器

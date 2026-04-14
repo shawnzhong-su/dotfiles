@@ -153,3 +153,8 @@ desc:      (cask - no brew desc available)
 installed: 2026-04-14
 comment:   实现terminal启动的欢迎展示
 desc:      Like neofetch, but much faster because written mostly in C
+
+# ── hammerspoon ──────────────────────────────────
+installed: 2026-04-14
+comment:   实现豆包的语音输入接入
+desc:      (cask - no brew desc available)
