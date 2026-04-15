@@ -1,0 +1,10 @@
+gui:
+  theme:
+    selectedLineBgColor:
+      - reverse
+    selectedRangeBgColor:
+      - reverse
+git:
+  pagers:
+    - colorArg: always
+      pager: delta --dark --paging=never --features=lazygit
