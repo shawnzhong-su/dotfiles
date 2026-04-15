@@ -158,3 +158,8 @@ desc:      Like neofetch, but much faster because written mostly in C
 installed: 2026-04-14
 comment:   实现豆包的语音输入接入
 desc:      (cask - no brew desc available)
+
+# ── stow ──────────────────────────────────
+installed: 2026-04-15
+comment:   实现config文件的统一管理
+desc:      Organize software neatly under a single directory tree (e.g. /usr/local)

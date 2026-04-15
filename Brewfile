@@ -18,6 +18,7 @@ brew "neovim"
 brew "powerlevel10k"
 # 高速搜索，neovim grep 依赖
 brew "ripgrep"
+brew "stow"
 # Python 包与项目管理器
 brew "uv"
 # 基于 Rust 的终端文件管理器
@@ -43,6 +44,7 @@ cask "datagrip"
 cask "dingtalk"
 # 编程图标补丁字体
 cask "font-jetbrains-mono-nerd-font"
+# 实现豆包的语音输入接入
 cask "hammerspoon"
 # 压缩与解压缩工具
 cask "keka"
