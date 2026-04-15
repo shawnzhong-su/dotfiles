@@ -9,8 +9,6 @@ brew "eza"
 brew "fastfetch"
 # Google Gemini 终端助手
 brew "gemini-cli"
-# 内嵌在 nvim 中的 代码对比工具
-brew "git-delta"
 # Docker 交互式终端界面
 brew "lazydocker"
 # Git 交互式终端界面
