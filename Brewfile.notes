@@ -173,3 +173,8 @@ desc:      Diff that understands syntax
 installed: 2026-04-15
 comment:   (无备注)
 desc:      Syntax-highlighting pager for git and diff output
+
+# ── brightness ──────────────────────────────────
+installed: 2026-04-15
+comment:   亮度调整
+desc:      Change macOS display brightness from the command-line
