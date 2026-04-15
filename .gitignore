@@ -1,0 +1,21 @@
+# ─── macOS 系统文件 ──────────────────────────────
+.DS_Store
+**/.DS_Store
+
+# ─── 备份文件 ────────────────────────────────────
+*.bak
+*.orig
+*.swp
+
+# ─── Clash：代理配置（含服务器/密码信息）──────────
+clash/.config/clash/config.yaml
+clash/.config/clash/dev.yaml
+clash/.config/clash/cache.db
+clash/.config/clash/Country.mmdb
+
+# ─── 其他敏感文件 ────────────────────────────────
+# nvim 中如有本地化配置
+nvim/.config/nvim/lua/custom/local.lua
+
+# ─── 大型二进制文件 ──────────────────────────────
+nvim/lazy-lock.json        # 可选：lock 文件体积较大

@@ -1,0 +1,7 @@
+# stow 忽略这些文件，不创建符号链接
+\.git
+\.gitignore
+README\.md
+install\.sh
+\.DS_Store
+.*\.bak
