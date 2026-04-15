@@ -19,8 +19,6 @@ while IFS= read -r line; do
   if [[ "$line" == \#* || "$line" =~ ^(installed|comment|desc): ]]; then
     echo "$line" >> "$TEMP"
     continue
-  fi
-
   # 匹配旧格式：pkg: comment
   if [[ "$line" =~ ^([a-zA-Z0-9_@/.+-]+):\ (.+)$ ]]; then
     local_pkg="${BASH_REMATCH[1]}"
