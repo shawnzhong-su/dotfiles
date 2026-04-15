@@ -8,6 +8,7 @@ brew "eza"
 brew "fastfetch"
 # Google Gemini 终端助手
 brew "gemini-cli"
+brew "git-delta"
 # Docker 交互式终端界面
 brew "lazydocker"
 # Git 交互式终端界面
@@ -18,6 +19,7 @@ brew "neovim"
 brew "powerlevel10k"
 # 高速搜索，neovim grep 依赖
 brew "ripgrep"
+# 实现config文件的统一管理
 brew "stow"
 # Python 包与项目管理器
 brew "uv"
