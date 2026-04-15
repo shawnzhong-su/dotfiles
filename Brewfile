@@ -2,6 +2,7 @@
 tap "romkatv/powerlevel10k"
 # 带语法高亮的 cat 替代品
 brew "bat"
+# 内嵌在 nvim 中的 代码对比工具:逻辑差异深度审查
 brew "difftastic"
 # 带图标的 ls 现代化替代品
 brew "eza"
@@ -9,6 +10,7 @@ brew "eza"
 brew "fastfetch"
 # Google Gemini 终端助手
 brew "gemini-cli"
+brew "git-delta"
 # Docker 交互式终端界面
 brew "lazydocker"
 # Git 交互式终端界面
