@@ -168,3 +168,8 @@ desc:      Organize software neatly under a single directory tree (e.g. /usr/loc
 installed: 2026-04-15
 comment:   内嵌在 nvim 中的 代码对比工具
 desc:      Syntax-highlighting pager for git and diff output
+
+# ── difftastic ──────────────────────────────────
+installed: 2026-04-15
+comment:   内嵌在 nvim 中的 代码对比工具:逻辑差异深度审查
+desc:      Diff that understands syntax

@@ -2,12 +2,14 @@
 tap "romkatv/powerlevel10k"
 # 带语法高亮的 cat 替代品
 brew "bat"
+brew "difftastic"
 # 带图标的 ls 现代化替代品
 brew "eza"
 # 实现terminal启动的欢迎展示
 brew "fastfetch"
 # Google Gemini 终端助手
 brew "gemini-cli"
+# 内嵌在 nvim 中的 代码对比工具
 brew "git-delta"
 # Docker 交互式终端界面
 brew "lazydocker"
