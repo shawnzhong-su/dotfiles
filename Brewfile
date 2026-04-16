@@ -24,6 +24,7 @@ brew "ripgrep"
 # 实现config文件的统一管理
 brew "stow"
 brew "tmux"
+brew "tmuxinator"
 # Python 包与项目管理器
 brew "uv"
 # 基于 Rust 的终端文件管理器

@@ -189,3 +189,8 @@ desc:      Terminal multiplexer
 installed: 2026-04-16
 comment:   (无备注)
 desc:      (cask - no brew desc available)
+
+# ── tmuxinator ──────────────────────────────────
+installed: 2026-04-17
+comment:   tmux session/layout manager for project workspaces
+desc:      Manage complex tmux sessions easily
