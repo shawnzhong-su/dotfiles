@@ -179,3 +179,8 @@ desc:      Change macOS display brightness from the command-line
 installed: 2026-04-16
 comment:   GPU-accelerated terminal emulator, managed via GNU Stow dotfiles
 desc:      (cask - no brew desc available)
+
+# ── tmux ──────────────────────────────────
+installed: 2026-04-16
+comment:   (无备注)
+desc:      Terminal multiplexer

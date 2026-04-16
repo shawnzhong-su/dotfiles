@@ -23,6 +23,7 @@ brew "powerlevel10k"
 brew "ripgrep"
 # 实现config文件的统一管理
 brew "stow"
+brew "tmux"
 # Python 包与项目管理器
 brew "uv"
 # 基于 Rust 的终端文件管理器
@@ -52,6 +53,7 @@ cask "font-jetbrains-mono-nerd-font"
 cask "hammerspoon"
 # 压缩与解压缩工具
 cask "keka"
+# GPU-accelerated terminal emulator, managed via GNU Stow dotfiles
 cask "kitty"
 # 知识管理与 Markdown 笔记
 cask "obsidian"
