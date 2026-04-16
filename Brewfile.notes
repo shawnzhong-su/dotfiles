@@ -104,11 +104,6 @@ installed: unknown
 comment:   压缩与解压缩工具
 desc:      (Keka) File archiver
 
-# ── kitty ──────────────────────────────────
-installed: unknown
-comment:   GPU 加速终端模拟器
-desc:      (kitty) GPU-based terminal emulator
-
 # ── obsidian ──────────────────────────────────
 installed: unknown
 comment:   知识管理与 Markdown 笔记
@@ -178,3 +173,8 @@ desc:      Syntax-highlighting pager for git and diff output
 installed: 2026-04-15
 comment:   亮度调整
 desc:      Change macOS display brightness from the command-line
+
+# ── kitty ──────────────────────────────────
+installed: 2026-04-16
+comment:   (无备注)
+desc:      (cask - no brew desc available)
