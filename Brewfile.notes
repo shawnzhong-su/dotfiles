@@ -174,7 +174,8 @@ installed: 2026-04-15
 comment:   亮度调整
 desc:      Change macOS display brightness from the command-line
 
+
 # ── kitty ──────────────────────────────────
 installed: 2026-04-16
-comment:   (无备注)
+comment:   GPU-accelerated terminal emulator, managed via GNU Stow dotfiles
 desc:      (cask - no brew desc available)

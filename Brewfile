@@ -52,7 +52,6 @@ cask "font-jetbrains-mono-nerd-font"
 cask "hammerspoon"
 # 压缩与解压缩工具
 cask "keka"
-# GPU 加速终端模拟器
 cask "kitty"
 # 知识管理与 Markdown 笔记
 cask "obsidian"
