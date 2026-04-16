@@ -49,6 +49,7 @@ cask "datagrip"
 cask "dingtalk"
 # 编程图标补丁字体
 cask "font-jetbrains-mono-nerd-font"
+cask "ghostty"
 # 实现豆包的语音输入接入
 cask "hammerspoon"
 # 压缩与解压缩工具
