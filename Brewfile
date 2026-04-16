@@ -54,8 +54,6 @@ cask "ghostty"
 cask "hammerspoon"
 # 压缩与解压缩工具
 cask "keka"
-# GPU-accelerated terminal emulator, managed via GNU Stow dotfiles
-cask "kitty"
 # 知识管理与 Markdown 笔记
 cask "obsidian"
 # 轻量级容器与虚拟机管理
