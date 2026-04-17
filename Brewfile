@@ -8,6 +8,7 @@ brew "difftastic"
 brew "eza"
 # 实现terminal启动的欢迎展示
 brew "fastfetch"
+brew "fzf"
 # Google Gemini 终端助手
 brew "gemini-cli"
 brew "git-delta"
@@ -24,6 +25,7 @@ brew "ripgrep"
 # 实现config文件的统一管理
 brew "stow"
 brew "tmux"
+# tmux session/layout manager for project workspaces
 brew "tmuxinator"
 # Python 包与项目管理器
 brew "uv"
