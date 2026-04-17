@@ -8,10 +8,12 @@ brew "difftastic"
 brew "eza"
 # 实现terminal启动的欢迎展示
 brew "fastfetch"
+# 模糊搜索辅助 Tmux 的sessionx 插件
 brew "fzf"
 # Google Gemini 终端助手
 brew "gemini-cli"
 brew "git-delta"
+brew "jq"
 # Docker 交互式终端界面
 brew "lazydocker"
 # Git 交互式终端界面

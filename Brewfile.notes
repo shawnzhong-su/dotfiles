@@ -194,3 +194,8 @@ desc:      Manage complex tmux sessions easily
 installed: 2026-04-17
 comment:   模糊搜索辅助 Tmux 的sessionx 插件
 desc:      Command-line fuzzy finder written in Go
+
+# ── jq ──────────────────────────────────
+installed: 2026-04-17
+comment:   JSON预览 辅助 Yazi
+desc:      Lightweight and flexible command-line JSON processor
