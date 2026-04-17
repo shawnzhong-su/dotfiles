@@ -199,3 +199,8 @@ desc:      Command-line fuzzy finder written in Go
 installed: 2026-04-17
 comment:   JSON预览 辅助 Yazi
 desc:      Lightweight and flexible command-line JSON processor
+
+# ── poppler ──────────────────────────────────
+installed: 2026-04-17
+comment:   PDF预览 辅助 Yazi
+desc:      PDF rendering library (based on the xpdf-3.0 code base)

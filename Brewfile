@@ -13,6 +13,7 @@ brew "fzf"
 # Google Gemini 终端助手
 brew "gemini-cli"
 brew "git-delta"
+# JSON预览 辅助 Yazi
 brew "jq"
 # Docker 交互式终端界面
 brew "lazydocker"
@@ -20,6 +21,7 @@ brew "lazydocker"
 brew "lazygit"
 # 主编辑器
 brew "neovim"
+brew "poppler"
 # 极速 Zsh 主题
 brew "powerlevel10k"
 # 高速搜索，neovim grep 依赖
