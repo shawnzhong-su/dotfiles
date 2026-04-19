@@ -21,11 +21,13 @@ brew "lazydocker"
 brew "lazygit"
 # 主编辑器
 brew "neovim"
+# PDF预览 辅助 Yazi
 brew "poppler"
 # 极速 Zsh 主题
 brew "powerlevel10k"
 # 高速搜索，neovim grep 依赖
 brew "ripgrep"
+brew "rust"
 # 实现config文件的统一管理
 brew "stow"
 brew "tmux"
@@ -67,3 +69,4 @@ cask "obsidian"
 cask "orbstack"
 # 截图/贴图/OCR 效率工具
 cask "pixpin"
+cask "telegram"

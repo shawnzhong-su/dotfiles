@@ -204,3 +204,8 @@ desc:      Lightweight and flexible command-line JSON processor
 installed: 2026-04-17
 comment:   PDF预览 辅助 Yazi
 desc:      PDF rendering library (based on the xpdf-3.0 code base)
+
+# ── telegram ──────────────────────────────────
+installed: 2026-04-19
+comment:   纸飞机
+desc:      (cask - no brew desc available)
