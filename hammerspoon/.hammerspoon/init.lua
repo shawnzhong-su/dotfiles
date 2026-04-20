@@ -16,7 +16,7 @@ local OPTION_PRESS_DELAY = 0.30
 local OPTION_DOUBLE_TAP_INTERVAL = 0.18
 
 -- 松开右 Command 后，延迟多久恢复原输入法（秒）
-local RESTORE_IME_DELAY = 2.0
+local RESTORE_IME_DELAY = 0.5
 
 -- 物理按键 keycode
 local KEYCODE_RIGHT_CMD = 54

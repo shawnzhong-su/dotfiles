@@ -1,0 +1,35 @@
+gui:
+  border: rounded
+  sidePanelWidth: 0.28
+  wrapMainPanel: true
+  expandFocusedSidePanel: true
+  showBottomLine: false
+  theme:
+    activeBorderColor:
+      - cyan
+      - bold
+    inactiveBorderColor:
+      - default
+    selectedLineBgColor:
+      - reverse
+    optionsTextColor:
+      - blue
+stats:
+  graphs:
+    - caption: CPU (%)
+      statPath: DerivedStats.CPUPercentage
+      color: cyan
+    - caption: Memory (%)
+      statPath: DerivedStats.MemoryPercentage
+      color: magenta
+customCommands:
+  containers:
+    - name: Open shell
+      attach: true
+      command: docker exec -it {{ .Container.ID }} sh
+    - name: View logs (100)
+      attach: true
+      command: docker logs --tail 100 -f {{ .Container.ID }}
+    - name: Restart container
+      attach: false
+      command: docker restart {{ .Container.ID }}

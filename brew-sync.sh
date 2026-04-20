@@ -19,6 +19,8 @@ while IFS= read -r line; do
   if [[ "$line" == \#* || "$line" =~ ^(installed|comment|desc): ]]; then
     echo "$line" >> "$TEMP"
     continue
+  fi
+
   # 匹配旧格式：pkg: comment
   if [[ "$line" =~ ^([a-zA-Z0-9_@/.+-]+):\ (.+)$ ]]; then
     local_pkg="${BASH_REMATCH[1]}"
@@ -72,8 +74,33 @@ while IFS= read -r line; do
 
   # 空行代表一个块结束，注入备注
   if [[ -z "$line" && -n "$current_pkg" && -n "$current_comment" && "$current_comment" != "(无备注)" ]]; then
-    sed -i '' "/^# $current_comment$/d" "$BREWFILE"
-    sed -i '' "s|.*\"$current_pkg\".*|# $current_comment\n&|" "$BREWFILE"
+    python3 - "$BREWFILE" "$current_pkg" "$current_comment" <<'PY'
+import sys
+from pathlib import Path
+
+brewfile = Path(sys.argv[1])
+pkg = sys.argv[2]
+comment = sys.argv[3]
+text = brewfile.read_text()
+lines = text.splitlines()
+out = []
+i = 0
+inserted = False
+while i < len(lines):
+    line = lines[i]
+    if line == f'# {comment}':
+        i += 1
+        continue
+    if f'"{pkg}"' in line:
+        if not out or out[-1] != f'# {comment}':
+            out.append(f'# {comment}')
+        out.append(line)
+        inserted = True
+    else:
+        out.append(line)
+    i += 1
+brewfile.write_text('\n'.join(out) + ('\n' if text.endswith('\n') else ''))
+PY
     current_pkg=""
     current_comment=""
   fi

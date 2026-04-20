@@ -1,0 +1,12 @@
+name: "AI-<%= File.basename(ENV['PWD']).gsub('.', '_') %>"
+root: <%= ENV['PWD'] %>
+
+windows:
+  - workspace:
+      layout: main-vertical
+      panes:
+        # 魔法在这里：在面板 1 内部执行。
+        # 睡 0.5 秒等终端窗口撑开 -> 重排布局 -> 强制拉伸自己到 70% -> 最后启动 nvim
+        - sleep 0.5; tmux select-layout main-vertical; tmux resize-pane -t 1 -x 70%; nvim .
+        - claude
+        - gemini

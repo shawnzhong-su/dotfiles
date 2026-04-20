@@ -1,0 +1,48 @@
+# ---------------------------------------------------------
+# 🎨 外观与主题 (Visuals & Theme)
+# ---------------------------------------------------------
+theme = "Catppuccin Mocha"
+cursor-style = bar
+
+# 背景设置
+background-opacity = 0.40
+background-blur-radius = 60
+
+# 背景图片配置
+background-image = "/Users/shawn/.config/ghostty/bg.png"
+background-image-fit = cover
+background-image-opacity = 1.0
+
+# ---------------------------------------------------------
+# 🔡 字体与排版 (Font & Typography)
+# ---------------------------------------------------------
+font-family = "FiraCode Nerd Font Mono"
+font-size = 14
+font-feature = liga
+
+# ---------------------------------------------------------
+# 🖥️ 窗口与布局 (Window & Layout)
+# ---------------------------------------------------------
+window-padding-x = 10
+window-padding-y = 10
+macos-non-native-fullscreen = true
+
+# ---------------------------------------------------------
+# ⌨️ 快捷键绑定 (Keybindings)
+# ---------------------------------------------------------
+keybind = clear
+keybind = cmd+c=copy_to_clipboard
+keybind = cmd+v=paste_from_clipboard
+
+# 特殊字符与宏指令
+keybind = cmd+k=text:\x0c
+keybind = ctrl+shift+f5=reload_config
+keybind = ctrl+shift+z=text:\x13z
+keybind = cmd+shift+bracket_left=text:\x13H
+keybind = cmd+shift+bracket_right=text:\x13L
+
+# ---------------------------------------------------------
+# 🛠️ 核心与集成 (Core & Integration)
+# ---------------------------------------------------------
+# 禁用光标自动控制，交由 cursor-style 处理
+shell-integration-features = no-cursor

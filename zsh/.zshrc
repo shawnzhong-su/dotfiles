@@ -6,21 +6,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# ==========================================
-# 2. Oh My Zsh 基础设置
-# ==========================================
-export ZSH="$HOME/.oh-my-zsh"
-
-# 主题设置 (由于底部手动 source 了 p10k，这里的 ZSH_THEME 仅作占位)
-ZSH_THEME=""
-
-export TERM=xterm-kitty
 export COLORTERM=truecolor
-# 插件配置 (建议增加 zsh-autosuggestions 和 zsh-syntax-highlighting)
-plugins=(git)
-
-# 加载 Oh My Zsh
-source $ZSH/oh-my-zsh.sh
 
 # ==========================================
 # 3. 环境变量与路径 (Path)
@@ -41,11 +27,14 @@ alias ls='eza --icons'
 alias ll='eza -lh --icons --git'
 alias la='eza -lah --icons --git'
 
+
+alias claude='claude --dangerously-skip-permissions'
 # 使用 bat 替代 cat (支持代码高亮)
 alias cat='bat'
 
 # 使用 ripgrep 替代 grep (极速搜索)
 alias grep='rg'
+alias mux='tmuxinator'
 
 # ==========================================
 # 5. 主题与插件加载 (Homebrew 路径)
@@ -183,5 +172,13 @@ brew() {
 #
 #
 # 先执行 hushlogin 逻辑，然后手动打印自定义内容
-clear
-fastfetch
+# clear
+# fastfetch
+
+[[ -t 0 ]] && stty -ixon
+bindkey -r '^S'
+
+# 自动进入 tmux
+if [[ -z "$TMUX" ]]; then
+  tmux attach 2>/dev/null || tmux new-session
+fi

@@ -19,3 +19,4 @@ nvim/.config/nvim/lua/custom/local.lua
 
 # ─── 大型二进制文件 ──────────────────────────────
 nvim/lazy-lock.json        # 可选：lock 文件体积较大
+tmux/resurrect/
